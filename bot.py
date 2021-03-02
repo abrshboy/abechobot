@@ -74,7 +74,7 @@ def main():
                           port=PORT,
                           url_path="1681489679:AAGrHgaH1hB0Nyr_hrh2kr7cAo1coN7xYuQ")
     # updater.bot.set_webhook(url=settings.WEBHOOK_URL)
-    updater.bot.set_webhook("abechobot" + "1681489679:AAGrHgaH1hB0Nyr_hrh2kr7cAo1coN7xYuQ")
+    updater.bot.set_webhook("https://abrshbuy.herokuapp.com/" + "1681489679:AAGrHgaH1hB0Nyr_hrh2kr7cAo1coN7xYuQ")
 
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
     # SIGTERM or SIGABRT. This should be used most of the time, since
